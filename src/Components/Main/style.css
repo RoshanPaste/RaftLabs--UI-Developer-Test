@@ -1,0 +1,11 @@
+#img-cont, #tag {
+    transition: all 0.3s;
+}
+
+#img-cont:hover #tag {
+    background-color: rgb(85, 146, 227);
+}
+
+#search{
+  transition: width 1s;
+}

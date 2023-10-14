@@ -1,0 +1,137 @@
+.dropdown-content {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 0.54rem;
+    transition: all ease;
+    color: white
+}
+
+.dropdown-option {
+  padding: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 0.3rem;
+}
+
+.dropdown-option:hover {
+  background-color: #393ba5;
+}
+
+.selected {
+  background-color: #3437e3;
+  border-radius: 0.3rem;
+}
+
+
+
+
+.profile-img:hover{
+  box-shadow: 5px -10px 10px rgba(0, 0, 0, 0.179);
+}
+
+
+
+/* Responcice */
+
+@media only screen and (max-width: 940px) {
+
+  .navs-heading{
+    margin-top: -250px;
+  }
+
+  #profile{
+    opacity: 0;
+    display: none;
+  }
+
+}
+
+
+@media only screen and (max-width: 917px) {
+  .side-bar{
+      position: absolute;
+      z-index: 999;
+      transform: translatex(-100%);
+      width: 15rem;
+      height: 100vh;
+      transition: all ease-in 0.6s;
+  }
+  .side-bar .nav-text{
+    opacity: 0;
+    display: none;
+  }
+
+  .main-div{
+    width: 60rem;
+  }
+
+  .footer-div{
+    width: 60rem;
+    margin-top: 18rem;
+  }
+  .chart-div{
+    gap: 8rem;
+   }
+}
+@media only screen and (max-width: 874px) {
+  .chart-div{
+    gap: 0;
+   }
+}
+
+@media only screen and (max-width: 761px) {
+  .footer-div{
+    width: 60rem;
+    margin-top: 25rem;
+  }
+}
+@media only screen and (max-width: 738px) {
+  .footer-div{
+    margin-top: 34rem;
+    margin-bottom: 3rem;
+  }
+  .chart-div{
+   justify-content: center;
+  }
+}
+@media only screen and (max-width: 1268px) {
+  .chart-div{
+   justify-content: center;
+  }
+}
+@media only screen and (max-width: 506px) {
+  .footer-div{
+    margin-top: 44rem;
+  }
+}
+@media only screen and (max-width: 537px) {
+  .star-icon{
+    display: none;
+    opacity: 0;
+  }
+}
+@media only screen and (max-width: 444px) {
+  .footer-div {
+    width: 100vw;
+    margin-right: -50rem;
+    margin-left: 2rem;
+  }
+}
+@media only screen and (max-width: 354px) {
+  .footer-div {
+    width: 125vw;
+    margin-right: -40rem;
+    margin-left: 2rem;
+  }
+}
+@media only screen and (max-width: 225px) {
+  .footer-div {
+    width: 160vw;
+    margin-right: -40rem;
+    margin-left: 2rem;
+  }
+}
